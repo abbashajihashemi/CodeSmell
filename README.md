@@ -18,4 +18,20 @@
   <img width="952" height="245" alt="image" src="https://github.com/user-attachments/assets/bf3aa28f-ea04-46c1-bcee-e526d52031f9" />
 
 
+2) Large Class
 
+** Signs:
+A class contains many fields/methods/lines of code.
+Classes usually start small. But over time, they get bloated as the program grows.
+
+
+** Solutions:
+   - Extract Class: helps if part of the behavior of the large class can be spun off into a separate component.
+   - Extract Subclass: helps if part of the behavior of the large class can be implemented in different ways or is used in rare cases.
+   - Extract Interface: helps if it’s necessary to have a list of the operations and behaviors that the client can use.
+
+   ### Extract Class
+<img width="417" height="304" alt="image" src="https://github.com/user-attachments/assets/38b14c4d-cf0f-476e-8382-1a38b749713b" />
+
+Benfit: Single Responsibilty
+Drawbacks: If you “overdo it” with this refactoring technique, you will have to resort to Inline Class.
