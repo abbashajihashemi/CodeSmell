@@ -31,7 +31,9 @@ Classes usually start small. But over time, they get bloated as the program grow
    - Extract Interface: helps if it’s necessary to have a list of the operations and behaviors that the client can use.
 
    ### Extract Class
-<img width="417" height="304" alt="image" src="https://github.com/user-attachments/assets/38b14c4d-cf0f-476e-8382-1a38b749713b" />
+<img width="200" alt="image" src="https://github.com/user-attachments/assets/38b14c4d-cf0f-476e-8382-1a38b749713b" />
+<img width="250" height="267" alt="image" src="https://github.com/user-attachments/assets/630f8094-f67d-4930-b19c-c7c8a841cb5e" />
+
 
 Benfit: Single Responsibilty
 Drawbacks: If you “overdo it” with this refactoring technique, you will have to resort to Inline Class.
